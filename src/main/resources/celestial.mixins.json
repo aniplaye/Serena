@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.celestial.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["TitleScreenMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "serena",
+  "version": "${version}",
+  "name": "Serena Client",
+  "description": "A dark pink utility client with a custom Serena main menu, dashboard GUI and HUD modules for Minecraft 26.3.",
+  "authors": [
+    "Vawue"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.celestial.CelestialMod"
+    ],
+    "client": [
+      "com.celestial.client.CelestialClient"
+    ]
+  },
+  "mixins": [
+    "celestial.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "fabric-api": "*",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
